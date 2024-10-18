@@ -21,8 +21,6 @@ scatter(planet_distances, planet_sizes * 100, 100, 'filled');
 title('Planet Distances vs. Sizes');
 xlabel('Distance from Sun (AU)');
 ylabel('Relative Size (Earth = 1)');
-xlim([0 35]); % Set x-axis limit
-ylim([0 12]); % Set y-axis limit
 grid on;
 
 % Add labels for each planet
